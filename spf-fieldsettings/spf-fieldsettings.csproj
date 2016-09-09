@@ -53,15 +53,15 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>packages\sp-cmd-deploy.1.0.4\lib\Microsoft.SharePoint.Client.dll</HintPath>
+      <HintPath>packages\sp-cmd-deploy.1.0.5\lib\Microsoft.SharePoint.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>packages\sp-cmd-deploy.1.0.4\lib\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+      <HintPath>packages\sp-cmd-deploy.1.0.5\lib\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="sp-cmd-deploy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\sp-cmd-deploy.1.0.4\lib\sp-cmd-deploy.dll</HintPath>
+    <Reference Include="sp-cmd-deploy, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\sp-cmd-deploy.1.0.5\lib\sp-cmd-deploy.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="SPMeta2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d71faae3bf28531a, processorArchitecture=MSIL">

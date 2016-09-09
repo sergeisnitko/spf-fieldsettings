@@ -11,7 +11,7 @@ namespace spf_fieldsettings
     {
         static void Main(string[] args)
         {
-            SharePoint.CmdDeploy(args, "SPF Extended settings for fields",
+            SharePoint.CmdExecute(args, "SPF Extended settings for fields",
                 options =>
                 {
                     Model.Deploy(options);
@@ -19,7 +19,8 @@ namespace spf_fieldsettings
                 options =>
                 {
                     Model.Retract(options);
-                }
+                },
+                null
             );
 
             var t = "";

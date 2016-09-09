@@ -63,7 +63,7 @@ namespace spf_fieldsettings
 
         public static void ExecuteModel(this SiteModelNode Model, string url, ICredentials Credential = null)
         {
-            SharePoint.ExecuteSharepoint(url, Credential, ctx =>
+            SharePoint.Session(url, Credential, ctx =>
             {
                 var provisionService = new CSOMProvisionService();
                 provisionService.DeployModel(SiteModelHost.FromClientContext(ctx), Model);
@@ -73,7 +73,7 @@ namespace spf_fieldsettings
 
         public static void Retract(SPDeployOptions options)
         {
-            SharePoint.ExecuteSharepoint(options.url,options.Credentials, Ctx =>
+            SharePoint.Session(options.url,options.Credentials, Ctx =>
             {
                 var Site = Ctx.Site;
                 var CustomActions = Site.UserCustomActions;
