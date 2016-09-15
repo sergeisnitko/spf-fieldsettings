@@ -1,5 +1,4 @@
-﻿using CommandLine;
-using Microsoft.SharePoint.Client;
+﻿using Microsoft.SharePoint.Client;
 using SP.Cmd.Deploy;
 using SPMeta2.BuiltInDefinitions;
 using SPMeta2.CSOM.ModelHosts;
@@ -7,15 +6,10 @@ using SPMeta2.CSOM.Services;
 using SPMeta2.Definitions;
 using SPMeta2.Syntax.Default;
 using SPMeta2.Syntax.Default.Utils;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Reflection;
-using System.Security;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace spf_fieldsettings
 {
